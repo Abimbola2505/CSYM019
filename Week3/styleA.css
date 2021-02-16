@@ -1,0 +1,60 @@
+body{
+	display: grid;
+	grid-template-column: 150px 1fr;
+
+	grid-template-rows: 80px 100px 1fr 30px;
+	grid-template-areas: "header header header"
+						"nav nav nav"
+						"main main aside"
+						"footer footer footer";
+						
+
+}
+
+ul {
+        List-style-type: none;
+}
+
+header{
+	background-color:blue;
+	color: white;
+	padding: 20px;
+	grid-area: header;
+	text-align:center;
+	font-size: 40px;
+	font-family: "Calibri Light";
+	
+}
+
+nav{
+	background-color:yellow;
+	grid-area: nav;
+	text-align:center;
+	word-spacing: 7em;
+	font-family: "Calibri Light";
+
+}
+
+main{
+	background-color:darkblue;
+	color: white;
+	grid-area: main;
+	font-family: "Calibri Light";
+	width: 1000px;
+}
+
+aside{
+	background-color: lightgreen;
+	grid-area: aside;
+	font-family: "Calibri Light";
+	width: 340px;
+}
+
+footer{
+	background-color: darkgreen;
+	color: white;
+	font-family: "Calibri Light";
+	grid-area: footer;
+	text-align:center;
+}
+
