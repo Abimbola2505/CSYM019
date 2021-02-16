@@ -1,0 +1,70 @@
+header{
+	background-color: lightblue;
+	color: white;
+	padding: 10p;
+	font-size: 50px;
+	text-align: center;
+	justify-content:center;
+	font-family: "Calibri Light";
+	display: grid;
+	grid-row: auto;
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+	grid-template-columns: 500px 200px;
+	width: 1333px;
+	height:100px;
+	float: left;
+
+}
+
+ul {
+        List-style-type: none;
+}
+
+.myLinks{
+	background-color: yellow;
+	padding: 10p;
+	font-family: "Calibri Light";
+	display: block;
+	width: 300px;
+	height:1200px;
+	float: left;
+
+}
+
+
+	
+.Modules{
+	background-color: darkblue;
+	color: white;
+	padding: 10p;
+	font-family: "Calibri Light";
+	display: block;
+	width: 700px;
+	height:1200px;
+	float: left;
+	
+}
+
+.UON{
+	background-color: lightgreen;
+	font-family: "Calibri Light";
+	display: block;
+	width: 333px;
+	height:1200px;
+	float: right;
+}
+
+footer{
+	background-color: green;
+	font-family: "Calibri Light";
+	display: grid;
+	grid-row: auto;
+	grid-column-gap: 5px;
+	grid-row-gap: 5px;
+	grid-template-columns: 500px 200px;
+	width: 1333px;
+	height:30px;
+	justify-content:center;
+	text-align: center;
+}
