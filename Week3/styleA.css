@@ -13,6 +13,7 @@ body{
 
 ul {
         List-style-type: none;
+	
 }
 
 header{
@@ -30,7 +31,7 @@ nav{
 	background-color:yellow;
 	grid-area: nav;
 	text-align:center;
-	word-spacing: 7em;
+	//word-spacing: 7em;
 	font-family: "Calibri Light";
 
 }
