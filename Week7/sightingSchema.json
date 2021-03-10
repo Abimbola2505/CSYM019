@@ -1,0 +1,49 @@
+{
+	"$schema": "http://json-schema.org/draft-04.schema#",
+	"title": "Sighting Report",
+	"description": "A report",
+	"type": "object",
+	"properties": {
+		"sightings": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"type": "integer"
+					},
+					"animal": {
+						"type": "string",
+						"enum": ["Pine", "Hare", "Beaver", "otter", "Snowy owl"]
+					},
+					"number": {
+						"type": "number"
+					},
+					"location": {
+						"type": "string"
+					},
+					"date": {
+						"type": "string"
+					},
+					"time": {
+						"type": "string"
+					},
+					"observer": {
+						"type": "object",
+						"properties": {
+							"name": {
+								"type": "string"
+							},
+							"email": {
+								"type": "string"
+							}
+						}
+					},
+					"observations": {
+						"type": "string"
+					}
+				}
+			}
+		}
+	}
+}
